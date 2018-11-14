@@ -1,0 +1,9 @@
+---
+title: "lab 7 rank based test"
+author: "Juan Silva"
+date: "11/14/2018"
+output: html_document
+---
+
+
+hi this is juan and i crreated this repo and markdown document.
