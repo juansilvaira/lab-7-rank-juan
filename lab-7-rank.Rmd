@@ -8,3 +8,22 @@ output: html_document
 
 hi this is juan and i crreated this repo and markdown document.
 WTFWTF
+
+Collaborator (It is Max or is it James? I am the collaborator and I am going to make some histograms)
+
+```{r}
+
+library(tidyverse)
+kermit <- read_csv("kermit.csv")
+
+kermit
+
+# Made a histogram
+
+kermit_hist <- ggplot(kermit, aes (x = Score.pre)) +
+  geom_histogram() +
+  facet_wrap(~ Gender)
+
+kermit_hist
+```
+
